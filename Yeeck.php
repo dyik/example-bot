@@ -12,12 +12,12 @@
 require_once __DIR__ . '/vendor/autoload.php';
 
 // Add you bot's API key and name
-$bot_api_key  = 'your:bot_api_key';
-$bot_username = 'username_bot';
+$bot_api_key  = '1034803622:AAG7erncR1qOR6ITgLc30FMcCcPFuJkbNk0';
+$bot_username = '@yeeckhack_bot';
 
 // Define all IDs of admin users in this array (leave as empty array if not used)
 $admin_users = [
-//    123,
+// $bot_username,$bot_api_key
 ];
 
 // Define all paths for your custom commands in this array (leave as empty array if not used)
@@ -27,7 +27,7 @@ $commands_paths = [
 
 // Enter your MySQL database credentials
 //$mysql_credentials = [
-//    'host'     => 'localhost',
+//    'host'     => '192.168.8.100',
 //    'user'     => 'dbuser',
 //    'password' => 'dbpass',
 //    'database' => 'dbname',
